@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mundial Sudáfrica 2010 - España Campeón</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>España Campeón del Mundial de Sudáfrica 2010</h1>
+    </header>
+    <section>
+	<h2>Himno de España</h2>
+	<p><audio src="imagenes/Himno de España.mp3" controls></audio></p>
+        <img src="imagenes/spain_champion.jpg">
+	<p>La Copa Mundial de la FIFA Sudáfrica 2010 fue la decimonovena edición de la Copa Mundial de Fútbol. La competición se celebró en Sudáfrica, entre el 11 de junio y el 11 de julio de ese año. El campeonato estuvo compuesto de dos fases: en la primera, se conformaron ocho grupos de cuatro equipos cada uno y avanzaron a la siguiente ronda los dos mejores de cada grupo. Los dieciséis clasificados se enfrentaron posteriormente en partidos eliminatorios, hasta llegar a los dos equipos que disputaron la final en el estadio Soccer City de Johannesburgo.</p>
+        <p>El Mundial de Sudáfrica 2010 fue un torneo histórico para la Selección Española. Bajo la dirección de Vicente del Bosque, España logró su primer título mundial.</p>
+        <p>El equipo mostró un fútbol excepcional, con una defensa sólida y el icónico gol de Andrés Iniesta en la final contra Países Bajos.</p>
+        <button onclick="MostrarRival()">Mostrar Rival</button>
+        <p id="Rival">El rival de España en la final fue...</p>
+    </section>
+    <div>
+	<h2>Partidos de España</h2>
+    	<button onclick="MostrarFase('fasedegrupos')">Fase de grupos</button>
+   	<button onclick="MostrarFase('octavos')">Octavos</button>
+    	<button onclick="MostrarFase('cuartos')">Cuartos</button>
+   	<button onclick="MostrarFase('semifinal')">Semifinal</button>
+    	<button onclick="MostrarFase('final')">Final</button>
+    </div>
+
+    <div id="fasedegrupos" class="content">
+    	<header>
+        	<h1>Fase de Grupos</h1>
+    	</header>
+    	<section>
+        	<h2>Partidos de España</h2>
+        	<img src="imagenes/grupo_fase.jpeg">
+	    	<p>España 0-1 Suiza</p>
+	    	<p>España 2-0 Honduras</p>
+	    	<p>España 2-1 Chile</p>
+        	<h2>Alineaciones Titulares</h2>
+        	<p>Casillas, Ramos, Piqué, Puyol, Capdevila, Busquets, Alonso, Xavi, Villa, David Silva, Iniesta</p>
+        	<p>Casillas, Ramos, Piqué, Puyol, Capdevila, Busquets, Alonso, Xavi, Villa, Torres, Navas</p>
+        	<p>Casillas, Ramos, Piqué, Puyol, Capdevila, Busquets, Alonso, Xavi, Villa, Torres, Iniesta</p>
+        	<h2>Vídeo Resumen</h2>
+        	<iframe width="560" height="315" src="https://youtu.be/wSGC3XVk4wE"></iframe>
+    	</section>
+    </div>
+
+    <div id="octavos" class="content">
+    	<header>
+        	<h1>Octavos de Final</h1>
+    	</header>
+    	<section>
+        	<h2>España vs Portugal</h2>
+		<img src="imagenes/octavos_vs_portugal.jpg">
+        	<p>Resultado: España 1-0 Portugal</p>
+        	<h2>Alineación Titular</h2>
+        	<p>Casillas, Ramos, Piqué, Puyol, Capdevila, Busquets, Alonso, Xavi, Villa, Torres, Iniesta</p>
+        	<h2>Vídeo Resumen</h2>
+        	<iframe width="560" height="315" src="https://youtu.be/Jiz42zNK4mE"></iframe>
+    	</section>
+    </div>
+
+    <div id="cuartos" class="content">
+	<header>
+        	<h1>Cuartos de Final</h1>
+    	</header>
+    	<section>
+        	<h2>España vs Paraguay</h2>
+        	<img src="imagenes/cuartos_vs_paraguay.jpg">
+        	<p>Resultado: España 1-0 Paraguay</p>
+        	<h2>Alineación Titular</h2>
+        	<p>Casillas, Ramos, Piqué, Puyol, Capdevila, Busquets, Alonso, Xavi, Villa, Torres, Iniesta</p>
+        	<h2>Vídeo Resumen</h2>
+        	<iframe width="560" height="315" src="https://youtu.be/gVJrUu7atj8"></iframe>
+    	</section>
+    </div>
+
+    <div id="semifinal" class="content">
+    	<header>
+        	<h1>Semifinal</h1>
+    	</header>
+    	<section>
+        	<h2>España vs Alemania</h2>
+        	<img src="imagenes/semifinal_vs_alemania.jpg">
+        	<p>Resultado: España 1-0 Alemania</p>
+        	<h2>Alineación Titular</h2>
+        	<p>Casillas, Ramos, Piqué, Puyol, Capdevila, Busquets, Alonso, Xavi, Pedro, Villa, Iniesta</p>
+        	<h2>Vídeo Resumen</h2>
+        	<iframe width="560" height="315" src="https://youtu.be/BG3xHtXHZDI"></iframe>
+    	</section>
+    </div>
+
+    <div id="final" class="content">
+    	<header>
+        	<h1>Final - España Campeón</h1>
+    	</header>
+    	<section>
+        	<h2>España vs Países Bajos</h2>
+        	<img src="imagenes/final_vs_holanda.jpg">
+        	<p>Resultado: España 1-0 Países Bajos</p>
+        	<h2>Alineación Titular</h2>
+        	<p>Casillas, Ramos, Piqué, Puyol, Capdevila, Busquets, Alonso, Xavi, Pedro, Villa, Iniesta</p>
+        	<h2>Vídeo Resumen</h2>
+        	<iframe width="560" height="315" src="https://youtu.be/aKSHgMqCwbQ"></iframe>
+        	<h2>¡España Campeón del Mundo!</h2>
+        	<img width="1150" height="700" src="imagenes/iniesta_gol.jpeg">
+    	</section>
+    </div>
+
+    <script src="MyScript.js"></script>
+
+</body>
+</html>

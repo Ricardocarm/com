@@ -1,0 +1,43 @@
+body {
+    font-family: Calibri, sans-serif;
+    background-color: red;
+    text-align: center;
+}
+
+header {
+    background-color: yellow;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Calibri, serif;
+    color: red;
+}
+
+h2 {
+    font-family: Calibri, serif;
+    color: black;
+}
+
+section {
+    margin: 20px;
+    text-align: center;
+}
+
+div a{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+button {
+    text-align: center;
+    background-color: yellow;
+}
+
+.content {
+    display: none;
+}
